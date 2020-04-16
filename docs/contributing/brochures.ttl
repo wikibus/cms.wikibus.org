@@ -1,2 +1,0 @@
-<src/contributing/brochures> <http://schema.org/name> "Contributing brochures to wikibus.org" .
-<src/contributing/brochures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HowTo> .

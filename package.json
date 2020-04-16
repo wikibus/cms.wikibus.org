@@ -10,11 +10,12 @@
     "@fcostarodrigo/walk": "^4.0.2",
     "@rdfine/schema": "^0.1.2",
     "@rdfjs/data-model": "^1.1.2",
+    "@tpluscode/rdf-string": "^0.2.10",
     "@types/clownface": "^0.12.13",
     "@types/rdf-ext": "^1.3.6",
     "clownface": "^0.12.3",
+    "fs-extra": "^9.0.0",
     "rdf-ext": "^1.3.0",
-    "rdf-utils-fs": "^2.1.0",
     "ts-node": "^8.8.2",
     "typescript": "^3.8.3"
   },
@@ -27,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/wikibus/cms.wikibus.org/issues"
   },
-  "homepage": "https://github.com/wikibus/cms.wikibus.org#readme",
-  "dependencies": {
-    "fs-extra": "^9.0.0"
-  }
+  "homepage": "https://github.com/wikibus/cms.wikibus.org#readme"
 }
