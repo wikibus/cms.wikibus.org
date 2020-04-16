@@ -2,3 +2,8 @@
   for = "/*.ttl"
   [headers.values]
     Content-Type = "text/turtle"
+[[redirects]]
+  from = "/*"
+  to = "/:splat.ttl"
+  status = 200
+  headers = { Content-Type = "text/turtle" }
