@@ -11,7 +11,7 @@ async function main() {
     for await (const file of walk('src')) {
         const term = file.replace(/\.ts$/, '')
         const outFile = file
-            .replace(/^src\/(.+)\.ts$/, 'docs/$1.ttl')
+            .replace(/^src\/(.+)\.ts$/, 'dist/$1.ttl')
 
         const graph = cf({
             dataset: $rdf.dataset(),
