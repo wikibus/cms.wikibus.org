@@ -34,6 +34,7 @@ async function steps(g: SingleContextClownface, file: Promise<string>) {
             } else if (child.type === 'heading' && child.depth === 2) {
                 direction = new HowToDirectionMixin.Class(g.blankNode(`direction${directionCounter}`), {
                     text: '',
+                    name: toString(child),
                     position: directionCounter++,
                 })
                 step.itemListElement = [...step.itemListElement, direction]

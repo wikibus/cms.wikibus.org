@@ -4,7 +4,7 @@
 
 Log in with Google or Facebook using the link in the top bar
 
-![during](/images/step-login.png)
+![duringMedia](/images/step-login.png)
 
 # Become contributor
 
@@ -14,7 +14,7 @@ Having successfully logged does not yet give the necessary permissions to upload
 
 ![duringMedia](/images/step-social-contact.png)
 
-# Adding brochures
+# Add brochures
 
 ## Create a brochure entry
 
@@ -22,7 +22,7 @@ When you become a **Contributor** you will find a new button on the brochures pa
 
 While none of the fields are strictly required, obviously the `title` is desired and also `language` would be nice to have filled in for every brochure so that they can be translated and indexed in the future.
 
-![duringMedia](/images/step-social-contact.png)
+![duringMedia](/images/step-create-brochure.png)
 
 ## Upload additional files
 
