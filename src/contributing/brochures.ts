@@ -48,6 +48,8 @@ async function steps(g: SingleContextClownface, file: Promise<string>) {
                 }
             }
         }
+
+        if (step) yield step
     }
 
     const result = []
