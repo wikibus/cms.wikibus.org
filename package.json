@@ -4,7 +4,8 @@
   "description": "Generated RDF CMS",
   "main": "index.ts",
   "scripts": {
-    "build": "ts-node index.ts"
+    "build": "ts-node index.ts",
+    "postbuild": "cp -r images dist"
   },
   "devDependencies": {
     "@fcostarodrigo/walk": "^4.0.2",
