@@ -33,7 +33,7 @@ async function steps(g: SingleContextClownface, file: Promise<string>) {
                 if (child.children.length === 1 && child.children[0].type === 'image') {
                     const image = child.children[0]
                     direction[image.alt] = new ImageObjectMixin.Class(g.blankNode(), {
-                        contentUrl: g.namedNode(image.url) as any,
+                        contentUrl: g.namedNode(image.url),
                     })
                 } else {
                     direction.text += processor.stringify(child)
