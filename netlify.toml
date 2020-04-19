@@ -1,4 +1,12 @@
 [[headers]]
+  for = "*"
+  [headers.values]
+    Content-Type = "text/turtle"
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Expose-Headers = "Link, Content-Location"
+    Access-Control-Allow-Headers = "Accept, Origin"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+[[headers]]
   for = "/*.ttl"
   [headers.values]
     Content-Type = "text/turtle"
