@@ -33,3 +33,13 @@ If available, first upload a PDF. It's first page will automatically appear as t
 Additional images can be added later, if desired.
 
 ![duringMedia](/images/step-upload.png)
+
+# Need help?
+
+## We can help digitising your content
+
+If you don't already have you brochure collection in PDFs, and have no means to scan and digitise them, let us know. 
+
+We can arrange for you to upload raw scanned images to an online drive and convert them to beautiful PDFs for you
+using licensed [Abbyy FineReader](http://finereader.abbyy.com) software. For best result please provide complete scans
+(all pages) in at least 300 DPI.
